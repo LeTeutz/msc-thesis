@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+wheels/
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+env/
+venv/
+.venv/
+Pipfile.lock
+
+# PyTest
+.cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyTorch
+runs/            # TensorBoard logs
+*.pt             # PyTorch model checkpoints
+
+# Logs and debug output
+*.log
+logs/
+debug/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.swp
+*.tmp
+
+# uv-specific files
+uv/               # uv virtual environment directory (if applicable)
+
+# ignore the models directory
+mnist_experiments/models/
+mnist_experiments/debug/
+mnist_experiments/debug_examples/
+mnist_experiments/logs/
+mnist_experiments/
+
+main copy.py
+
+data/
