@@ -1,0 +1,2360 @@
+[
+    {
+        "timestamp": "2024-12-17T00:23:34.830422",
+        "experiment": "MNIST -> MNIST",
+        "metrics": {
+            "accuracy": 0.9901,
+            "avg_confidence": 0.9954625504493714,
+            "adaptation_time": 206.53672409057617
+        }
+    },
+    {
+        "timestamp": "2024-12-17T00:27:17.648485",
+        "experiment": "MNIST Color -> MNIST",
+        "metrics": {
+            "accuracy": 0.9885,
+            "avg_confidence": 0.9975011585235596,
+            "adaptation_time": 220.37247109413147
+        }
+    },
+    {
+        "timestamp": "2024-12-17T00:30:49.371799",
+        "experiment": "Fashion-MNIST -> Fashion-MNIST",
+        "metrics": {
+            "accuracy": 0.9188,
+            "avg_confidence": 0.9527621821403504,
+            "adaptation_time": 209.22599744796753
+        }
+    },
+    {
+        "timestamp": "2024-12-17T00:34:43.874003",
+        "experiment": "Fashion-MNIST Color -> Fashion-MNIST",
+        "metrics": {
+            "accuracy": 0.9155,
+            "avg_confidence": 0.9608385062217712,
+            "adaptation_time": 232.0152678489685
+        }
+    },
+    {
+        "timestamp": "2024-12-17T00:41:24.609163",
+        "experiment": "EMNIST -> EMNIST",
+        "metrics": {
+            "accuracy": 0.8676063829787234,
+            "avg_confidence": 0.9131082035632844,
+            "adaptation_time": 396.0948405265808
+        }
+    },
+    {
+        "timestamp": "2024-12-17T00:48:38.639812",
+        "experiment": "EMNIST Color -> EMNIST",
+        "metrics": {
+            "accuracy": 0.8688829787234043,
+            "avg_confidence": 0.9260702348262706,
+            "adaptation_time": 428.69580602645874
+        }
+    },
+    {
+        "timestamp": "2024-12-17T00:52:48.310608",
+        "experiment": "MNIST Noise -> MNIST",
+        "metrics": {
+            "accuracy": 0.991,
+            "avg_confidence": 0.9957626655578613,
+            "adaptation_time": 247.02075242996216
+        }
+    },
+    {
+        "timestamp": "2024-12-17T00:57:18.353347",
+        "experiment": "MNIST Contour -> MNIST",
+        "metrics": {
+            "accuracy": 0.9083,
+            "avg_confidence": 0.9342237802505493,
+            "adaptation_time": 267.50807929039
+        }
+    },
+    {
+        "timestamp": "2024-12-17T01:01:15.895570",
+        "experiment": "MNIST Contrast -> MNIST",
+        "metrics": {
+            "accuracy": 0.9891,
+            "avg_confidence": 0.994189266872406,
+            "adaptation_time": 234.37629795074463
+        }
+    },
+    {
+        "timestamp": "2024-12-17T01:05:12.383107",
+        "experiment": "MNIST Blur -> MNIST",
+        "metrics": {
+            "accuracy": 0.9891,
+            "avg_confidence": 0.9962619784355163,
+            "adaptation_time": 233.95959305763245
+        }
+    },
+    {
+        "timestamp": "2024-12-17T01:09:01.322473",
+        "experiment": "MNIST Invert -> MNIST",
+        "metrics": {
+            "accuracy": 0.4761,
+            "avg_confidence": 0.8734938144683838,
+            "adaptation_time": 226.22658157348633
+        }
+    },
+    {
+        "timestamp": "2024-12-17T01:14:03.709645",
+        "experiment": "MNIST Color+Contour -> MNIST",
+        "metrics": {
+            "accuracy": 0.9029,
+            "avg_confidence": 0.9709505137443543,
+            "adaptation_time": 299.8943364620209
+        }
+    },
+    {
+        "timestamp": "2024-12-17T01:18:16.685740",
+        "experiment": "MNIST Color+Contrast -> MNIST",
+        "metrics": {
+            "accuracy": 0.9914,
+            "avg_confidence": 0.9965080056190491,
+            "adaptation_time": 249.93054747581482
+        }
+    },
+    {
+        "timestamp": "2024-12-17T01:22:08.186326",
+        "experiment": "MNIST Color+Noise -> MNIST",
+        "metrics": {
+            "accuracy": 0.9877,
+            "avg_confidence": 0.9960630911827087,
+            "adaptation_time": 229.2110722064972
+        }
+    },
+    {
+        "timestamp": "2024-12-17T01:27:24.803410",
+        "experiment": "MNIST Contour+Noise -> MNIST",
+        "metrics": {
+            "accuracy": 0.9487,
+            "avg_confidence": 0.9656094052314759,
+            "adaptation_time": 314.4227216243744
+        }
+    },
+    {
+        "timestamp": "2024-12-17T01:31:19.354930",
+        "experiment": "MNIST Contrast+Noise -> MNIST",
+        "metrics": {
+            "accuracy": 0.9894,
+            "avg_confidence": 0.995391498374939,
+            "adaptation_time": 232.09711122512817
+        }
+    },
+    {
+        "timestamp": "2024-12-17T01:36:54.285334",
+        "experiment": "MNIST Color+Contour+Noise -> MNIST",
+        "metrics": {
+            "accuracy": 0.9349,
+            "avg_confidence": 0.9796526285171508,
+            "adaptation_time": 332.7237980365753
+        }
+    },
+    {
+        "timestamp": "2024-12-17T01:40:59.930022",
+        "experiment": "MNIST Color+Contrast+Noise -> MNIST",
+        "metrics": {
+            "accuracy": 0.9878,
+            "avg_confidence": 0.992666080570221,
+            "adaptation_time": 243.34975695610046
+        }
+    },
+    {
+        "timestamp": "2024-12-17T01:46:48.733815",
+        "experiment": "MNIST Contour+Contrast+Noise -> MNIST",
+        "metrics": {
+            "accuracy": 0.9487,
+            "avg_confidence": 0.9656094052314759,
+            "adaptation_time": 346.5151824951172
+        }
+    },
+    {
+        "timestamp": "2024-12-17T01:52:56.647643",
+        "experiment": "MNIST Color+Contour+Contrast+Noise -> MNIST",
+        "metrics": {
+            "accuracy": 0.9426,
+            "avg_confidence": 0.9672311161041259,
+            "adaptation_time": 365.1521155834198
+        }
+    },
+    {
+        "timestamp": "2024-12-17T01:59:15.972095",
+        "experiment": "MNIST All Transforms -> MNIST",
+        "metrics": {
+            "accuracy": 0.9212,
+            "avg_confidence": 0.9818172759056091,
+            "adaptation_time": 377.0656819343567
+        }
+    },
+    {
+        "timestamp": "2024-12-17T02:02:54.236458",
+        "experiment": "Fashion-MNIST Noise -> Fashion-MNIST",
+        "metrics": {
+            "accuracy": 0.8849,
+            "avg_confidence": 0.9372178632736206,
+            "adaptation_time": 216.01421236991882
+        }
+    },
+    {
+        "timestamp": "2024-12-17T02:07:00.445383",
+        "experiment": "Fashion-MNIST Contour -> Fashion-MNIST",
+        "metrics": {
+            "accuracy": 0.3654,
+            "avg_confidence": 0.5786001056671143,
+            "adaptation_time": 243.76168394088745
+        }
+    },
+    {
+        "timestamp": "2024-12-17T02:10:31.716681",
+        "experiment": "Fashion-MNIST Contrast -> Fashion-MNIST",
+        "metrics": {
+            "accuracy": 0.9102,
+            "avg_confidence": 0.9417384350776672,
+            "adaptation_time": 209.05973863601685
+        }
+    },
+    {
+        "timestamp": "2024-12-17T02:14:01.640118",
+        "experiment": "Fashion-MNIST Blur -> Fashion-MNIST",
+        "metrics": {
+            "accuracy": 0.8938,
+            "avg_confidence": 0.9480048450469971,
+            "adaptation_time": 207.72868943214417
+        }
+    },
+    {
+        "timestamp": "2024-12-17T02:17:22.463094",
+        "experiment": "Fashion-MNIST Invert -> Fashion-MNIST",
+        "metrics": {
+            "accuracy": 0.2338,
+            "avg_confidence": 0.8629271285057067,
+            "adaptation_time": 198.50333619117737
+        }
+    },
+    {
+        "timestamp": "2024-12-17T02:21:55.370105",
+        "experiment": "Fashion-MNIST Color+Contour -> Fashion-MNIST",
+        "metrics": {
+            "accuracy": 0.3639,
+            "avg_confidence": 0.6094646281242371,
+            "adaptation_time": 270.5315799713135
+        }
+    },
+    {
+        "timestamp": "2024-12-17T02:25:38.256786",
+        "experiment": "Fashion-MNIST Color+Contrast -> Fashion-MNIST",
+        "metrics": {
+            "accuracy": 0.9075,
+            "avg_confidence": 0.942801210975647,
+            "adaptation_time": 220.72041511535645
+        }
+    },
+    {
+        "timestamp": "2024-12-17T02:29:26.952760",
+        "experiment": "Fashion-MNIST Color+Noise -> Fashion-MNIST",
+        "metrics": {
+            "accuracy": 0.8688,
+            "avg_confidence": 0.9402256204605103,
+            "adaptation_time": 226.51081490516663
+        }
+    },
+    {
+        "timestamp": "2024-12-17T02:35:05.341846",
+        "experiment": "Fashion-MNIST Contour+Noise -> Fashion-MNIST",
+        "metrics": {
+            "accuracy": 0.4056,
+            "avg_confidence": 0.6070491786003113,
+            "adaptation_time": 335.90590262413025
+        }
+    },
+    {
+        "timestamp": "2024-12-17T02:39:20.083677",
+        "experiment": "Fashion-MNIST Contrast+Noise -> Fashion-MNIST",
+        "metrics": {
+            "accuracy": 0.8848,
+            "avg_confidence": 0.9245684898376465,
+            "adaptation_time": 252.22957372665405
+        }
+    },
+    {
+        "timestamp": "2024-12-17T02:45:20.827541",
+        "experiment": "Fashion-MNIST Color+Contour+Noise -> Fashion-MNIST",
+        "metrics": {
+            "accuracy": 0.3066,
+            "avg_confidence": 0.8229008647918701,
+            "adaptation_time": 358.3866009712219
+        }
+    },
+    {
+        "timestamp": "2024-12-17T02:49:40.531817",
+        "experiment": "Fashion-MNIST Color+Contrast+Noise -> Fashion-MNIST",
+        "metrics": {
+            "accuracy": 0.8566,
+            "avg_confidence": 0.9151620687484742,
+            "adaptation_time": 256.2985281944275
+        }
+    },
+    {
+        "timestamp": "2024-12-17T02:55:47.588324",
+        "experiment": "Fashion-MNIST Contour+Contrast+Noise -> Fashion-MNIST",
+        "metrics": {
+            "accuracy": 0.4056,
+            "avg_confidence": 0.6070491786003113,
+            "adaptation_time": 364.6695249080658
+        }
+    },
+    {
+        "timestamp": "2024-12-17T03:02:19.121469",
+        "experiment": "Fashion-MNIST Color+Contour+Contrast+Noise -> Fashion-MNIST",
+        "metrics": {
+            "accuracy": 0.428,
+            "avg_confidence": 0.6548344783782959,
+            "adaptation_time": 389.03624653816223
+        }
+    },
+    {
+        "timestamp": "2024-12-17T03:09:06.541954",
+        "experiment": "Fashion-MNIST All Transforms -> Fashion-MNIST",
+        "metrics": {
+            "accuracy": 0.2942,
+            "avg_confidence": 0.8072751246452331,
+            "adaptation_time": 404.88309478759766
+        }
+    },
+    {
+        "timestamp": "2024-12-17T04:37:35.202773",
+        "experiment": "EMNIST Noise -> EMNIST",
+        "metrics": {
+            "accuracy": 0.8663829787234043,
+            "avg_confidence": 0.9140500663189178,
+            "adaptation_time": 444.61350774765015
+        }
+    },
+    {
+        "timestamp": "2024-12-17T04:46:08.453392",
+        "experiment": "EMNIST Contour -> EMNIST",
+        "metrics": {
+            "accuracy": 0.24297872340425533,
+            "avg_confidence": 0.32115810140650325,
+            "adaptation_time": 508.4047794342041
+        }
+    },
+    {
+        "timestamp": "2024-12-17T04:53:30.022924",
+        "experiment": "EMNIST Contrast -> EMNIST",
+        "metrics": {
+            "accuracy": 0.8647340425531915,
+            "avg_confidence": 0.898062321277375,
+            "adaptation_time": 437.22683238983154
+        }
+    },
+    {
+        "timestamp": "2024-12-17T05:00:40.201942",
+        "experiment": "EMNIST Blur -> EMNIST",
+        "metrics": {
+            "accuracy": 0.8611702127659574,
+            "avg_confidence": 0.9300406145542226,
+            "adaptation_time": 425.9300012588501
+        }
+    },
+    {
+        "timestamp": "2024-12-17T05:07:46.540802",
+        "experiment": "EMNIST Invert -> EMNIST",
+        "metrics": {
+            "accuracy": 0.05872340425531915,
+            "avg_confidence": 0.8125133270912982,
+            "adaptation_time": 422.0073344707489
+        }
+    },
+    {
+        "timestamp": "2024-12-17T05:17:21.480511",
+        "experiment": "EMNIST Color+Contour -> EMNIST",
+        "metrics": {
+            "accuracy": 0.35090425531914893,
+            "avg_confidence": 0.45490602087467275,
+            "adaptation_time": 569.9252815246582
+        }
+    },
+    {
+        "timestamp": "2024-12-17T05:24:40.255465",
+        "experiment": "EMNIST Color+Contrast -> EMNIST",
+        "metrics": {
+            "accuracy": 0.8529255319148936,
+            "avg_confidence": 0.9035834921167252,
+            "adaptation_time": 434.2097189426422
+        }
+    },
+    {
+        "timestamp": "2024-12-17T05:32:12.844836",
+        "experiment": "EMNIST Color+Noise -> EMNIST",
+        "metrics": {
+            "accuracy": 0.8258510638297872,
+            "avg_confidence": 0.8995053033625826,
+            "adaptation_time": 448.394327878952
+        }
+    },
+    {
+        "timestamp": "2024-12-17T05:42:41.116707",
+        "experiment": "EMNIST Contour+Noise -> EMNIST",
+        "metrics": {
+            "accuracy": 0.3846276595744681,
+            "avg_confidence": 0.6361519547726245,
+            "adaptation_time": 623.3127677440643
+        }
+    },
+    {
+        "timestamp": "2024-12-17T05:50:20.191438",
+        "experiment": "EMNIST Contrast+Noise -> EMNIST",
+        "metrics": {
+            "accuracy": 0.8657446808510638,
+            "avg_confidence": 0.9076747281500633,
+            "adaptation_time": 454.93572211265564
+        }
+    },
+    {
+        "timestamp": "2024-12-17T06:01:24.996998",
+        "experiment": "EMNIST Color+Contour+Noise -> EMNIST",
+        "metrics": {
+            "accuracy": 0.5023404255319149,
+            "avg_confidence": 0.7309815893781946,
+            "adaptation_time": 660.743655204773
+        }
+    },
+    {
+        "timestamp": "2024-12-17T06:09:27.379816",
+        "experiment": "EMNIST Color+Contrast+Noise -> EMNIST",
+        "metrics": {
+            "accuracy": 0.8327127659574468,
+            "avg_confidence": 0.8805118968638967,
+            "adaptation_time": 478.3331458568573
+        }
+    },
+    {
+        "timestamp": "2024-12-17T06:20:26.434197",
+        "experiment": "EMNIST Contour+Contrast+Noise -> EMNIST",
+        "metrics": {
+            "accuracy": 0.3846276595744681,
+            "avg_confidence": 0.6361519547726245,
+            "adaptation_time": 654.5711426734924
+        }
+    },
+    {
+        "timestamp": "2024-12-17T06:32:05.507048",
+        "experiment": "EMNIST Color+Contour+Contrast+Noise -> EMNIST",
+        "metrics": {
+            "accuracy": 0.5012765957446809,
+            "avg_confidence": 0.5215949258398502,
+            "adaptation_time": 694.950216293335
+        }
+    },
+    {
+        "timestamp": "2024-12-17T06:44:12.944007",
+        "experiment": "EMNIST All Transforms -> EMNIST",
+        "metrics": {
+            "accuracy": 0.5142553191489362,
+            "avg_confidence": 0.855155352328686,
+            "adaptation_time": 723.0890069007874
+        }
+    },
+    {
+        "timestamp": "2024-12-17T06:48:23.641464",
+        "experiment": "MNIST Contour -> MNIST with T3A",
+        "metrics": {
+            "accuracy": 0.9083,
+            "avg_confidence": 0.9910879115104675,
+            "adaptation_time": 247.60785341262817
+        }
+    },
+    {
+        "timestamp": "2024-12-17T06:53:02.403337",
+        "experiment": "MNIST Color+Contour -> MNIST with T3A",
+        "metrics": {
+            "accuracy": 0.9029,
+            "avg_confidence": 0.9959952026367187,
+            "adaptation_time": 276.3543448448181
+        }
+    },
+    {
+        "timestamp": "2024-12-17T06:56:55.011276",
+        "experiment": "MNIST Color+Contrast -> MNIST with T3A",
+        "metrics": {
+            "accuracy": 0.9914,
+            "avg_confidence": 0.9994217617034912,
+            "adaptation_time": 230.21445083618164
+        }
+    },
+    {
+        "timestamp": "2024-12-17T07:00:12.194755",
+        "experiment": "MNIST Color+Contrast+Contour -> MNIST with T3A",
+        "metrics": {
+            "accuracy": 0.9901,
+            "avg_confidence": 0.9993950435638428,
+            "adaptation_time": 194.8170506954193
+        }
+    },
+    {
+        "timestamp": "2024-12-17T07:04:25.823166",
+        "experiment": "MNIST Contour -> MNIST with SHOT",
+        "metrics": {
+            "accuracy": 0.963,
+            "avg_confidence": 0.9897991509437561,
+            "adaptation_time": 249.66995859146118
+        }
+    },
+    {
+        "timestamp": "2024-12-17T07:09:09.464384",
+        "experiment": "MNIST Color+Contour -> MNIST with SHOT",
+        "metrics": {
+            "accuracy": 0.9574,
+            "avg_confidence": 0.9912838600158691,
+            "adaptation_time": 279.82343196868896
+        }
+    },
+    {
+        "timestamp": "2024-12-17T07:13:04.188818",
+        "experiment": "MNIST Color+Contrast -> MNIST with SHOT",
+        "metrics": {
+            "accuracy": 0.9816,
+            "avg_confidence": 0.9967517711639404,
+            "adaptation_time": 230.94740796089172
+        }
+    },
+    {
+        "timestamp": "2024-12-17T07:16:26.887351",
+        "experiment": "MNIST Color+Contrast+Contour -> MNIST with SHOT",
+        "metrics": {
+            "accuracy": 0.9859,
+            "avg_confidence": 0.996556269454956,
+            "adaptation_time": 198.77320981025696
+        }
+    },
+    {
+        "timestamp": "2024-12-17T07:21:18.909828",
+        "experiment": "MNIST Contour -> MNIST with AugTTA",
+        "metrics": {
+            "accuracy": 0.7286,
+            "avg_confidence": 0.7620058950424194,
+            "adaptation_time": 247.43172788619995
+        }
+    },
+    {
+        "timestamp": "2024-12-17T07:26:45.016460",
+        "experiment": "MNIST Color+Contour -> MNIST with AugTTA",
+        "metrics": {
+            "accuracy": 0.6733,
+            "avg_confidence": 0.9032291435241699,
+            "adaptation_time": 281.28918743133545
+        }
+    },
+    {
+        "timestamp": "2024-12-17T07:31:26.475096",
+        "experiment": "MNIST Color+Contrast -> MNIST with AugTTA",
+        "metrics": {
+            "accuracy": 0.851,
+            "avg_confidence": 0.9558675362586975,
+            "adaptation_time": 234.83786916732788
+        }
+    },
+    {
+        "timestamp": "2024-12-17T07:35:30.310936",
+        "experiment": "MNIST Color+Contrast+Contour -> MNIST with AugTTA",
+        "metrics": {
+            "accuracy": 0.8746,
+            "avg_confidence": 0.929756899356842,
+            "adaptation_time": 198.85906958580017
+        }
+    },
+    {
+        "timestamp": "2024-12-17T07:39:42.231527",
+        "experiment": "MNIST Contour -> MNIST with Style Transfer",
+        "metrics": {
+            "accuracy": 0.9055,
+            "avg_confidence": 0.8791627561569214,
+            "adaptation_time": 249.30913615226746
+        }
+    },
+    {
+        "timestamp": "2024-12-17T07:44:22.185936",
+        "experiment": "MNIST Color+Contour -> MNIST with Style Transfer",
+        "metrics": {
+            "accuracy": 0.9036,
+            "avg_confidence": 0.9649820989608765,
+            "adaptation_time": 277.2768952846527
+        }
+    },
+    {
+        "timestamp": "2024-12-17T07:48:16.719290",
+        "experiment": "MNIST Color+Contrast -> MNIST with Style Transfer",
+        "metrics": {
+            "accuracy": 0.984,
+            "avg_confidence": 0.9961175571441651,
+            "adaptation_time": 231.34395051002502
+        }
+    },
+    {
+        "timestamp": "2024-12-17T07:51:35.929145",
+        "experiment": "MNIST Color+Contrast+Contour -> MNIST with Style Transfer",
+        "metrics": {
+            "accuracy": 0.9906,
+            "avg_confidence": 0.9944533025741578,
+            "adaptation_time": 196.7532160282135
+        }
+    },
+    {
+        "timestamp": "2024-12-17T07:55:54.400085",
+        "experiment": "Fashion-MNIST Contour -> Fashion-MNIST with T3A",
+        "metrics": {
+            "accuracy": 0.3654,
+            "avg_confidence": 0.9170535139083862,
+            "adaptation_time": 256.0832898616791
+        }
+    },
+    {
+        "timestamp": "2024-12-17T08:00:39.703006",
+        "experiment": "Fashion-MNIST Color+Contour -> Fashion-MNIST with T3A",
+        "metrics": {
+            "accuracy": 0.3639,
+            "avg_confidence": 0.9212848920822143,
+            "adaptation_time": 282.8467900753021
+        }
+    },
+    {
+        "timestamp": "2024-12-17T08:04:33.913595",
+        "experiment": "Fashion-MNIST Color+Contrast -> Fashion-MNIST with T3A",
+        "metrics": {
+            "accuracy": 0.9075,
+            "avg_confidence": 0.9921441329956054,
+            "adaptation_time": 231.80024528503418
+        }
+    },
+    {
+        "timestamp": "2024-12-17T08:07:54.313405",
+        "experiment": "Fashion-MNIST Color+Contrast+Contour -> Fashion-MNIST with T3A",
+        "metrics": {
+            "accuracy": 0.9188,
+            "avg_confidence": 0.993404746055603,
+            "adaptation_time": 198.0168399810791
+        }
+    },
+    {
+        "timestamp": "2024-12-17T08:12:56.333369",
+        "experiment": "Fashion-MNIST Contour -> Fashion-MNIST with AugTTA",
+        "metrics": {
+            "accuracy": 0.2218,
+            "avg_confidence": 0.6084332269668579,
+            "adaptation_time": 256.4057722091675
+        }
+    },
+    {
+        "timestamp": "2024-12-17T08:18:27.801131",
+        "experiment": "Fashion-MNIST Color+Contour -> Fashion-MNIST with AugTTA",
+        "metrics": {
+            "accuracy": 0.2825,
+            "avg_confidence": 0.5302374652862549,
+            "adaptation_time": 285.0637104511261
+        }
+    },
+    {
+        "timestamp": "2024-12-17T08:23:04.151555",
+        "experiment": "Fashion-MNIST Color+Contrast -> Fashion-MNIST with AugTTA",
+        "metrics": {
+            "accuracy": 0.7691,
+            "avg_confidence": 0.8059058468818665,
+            "adaptation_time": 231.625155210495
+        }
+    },
+    {
+        "timestamp": "2024-12-17T08:27:07.545847",
+        "experiment": "Fashion-MNIST Color+Contrast+Contour -> Fashion-MNIST with AugTTA",
+        "metrics": {
+            "accuracy": 0.7371,
+            "avg_confidence": 0.8478884969711303,
+            "adaptation_time": 198.3361246585846
+        }
+    },
+    {
+        "timestamp": "2024-12-17T08:31:27.949321",
+        "experiment": "Fashion-MNIST Contour -> Fashion-MNIST with SHOT",
+        "metrics": {
+            "accuracy": 0.6729,
+            "avg_confidence": 0.9469175486564636,
+            "adaptation_time": 256.3014109134674
+        }
+    },
+    {
+        "timestamp": "2024-12-17T08:36:16.351050",
+        "experiment": "Fashion-MNIST Color+Contour -> Fashion-MNIST with SHOT",
+        "metrics": {
+            "accuracy": 0.5433,
+            "avg_confidence": 0.9420083748817444,
+            "adaptation_time": 284.3884003162384
+        }
+    },
+    {
+        "timestamp": "2024-12-17T08:40:12.445874",
+        "experiment": "Fashion-MNIST Color+Contrast -> Fashion-MNIST with SHOT",
+        "metrics": {
+            "accuracy": 0.8549,
+            "avg_confidence": 0.9869154957771301,
+            "adaptation_time": 232.24773955345154
+        }
+    },
+    {
+        "timestamp": "2024-12-17T08:43:34.600392",
+        "experiment": "Fashion-MNIST Color+Contrast+Contour -> Fashion-MNIST with SHOT",
+        "metrics": {
+            "accuracy": 0.8754,
+            "avg_confidence": 0.9823655157089234,
+            "adaptation_time": 198.3019893169403
+        }
+    },
+    {
+        "timestamp": "2024-12-17T08:47:51.959556",
+        "experiment": "Fashion-MNIST Contour -> Fashion-MNIST with Style Transfer",
+        "metrics": {
+            "accuracy": 0.3892,
+            "avg_confidence": 0.40917688751220704,
+            "adaptation_time": 254.344144821167
+        }
+    },
+    {
+        "timestamp": "2024-12-17T08:52:38.290413",
+        "experiment": "Fashion-MNIST Color+Contour -> Fashion-MNIST with Style Transfer",
+        "metrics": {
+            "accuracy": 0.3294,
+            "avg_confidence": 0.591581770324707,
+            "adaptation_time": 283.8225767612457
+        }
+    },
+    {
+        "timestamp": "2024-12-17T08:56:32.687929",
+        "experiment": "Fashion-MNIST Color+Contrast -> Fashion-MNIST with Style Transfer",
+        "metrics": {
+            "accuracy": 0.8028,
+            "avg_confidence": 0.9781492255210876,
+            "adaptation_time": 231.8954918384552
+        }
+    },
+    {
+        "timestamp": "2024-12-17T08:59:54.074458",
+        "experiment": "Fashion-MNIST Color+Contrast+Contour -> Fashion-MNIST with Style Transfer",
+        "metrics": {
+            "accuracy": 0.8765,
+            "avg_confidence": 0.9543709007263184,
+            "adaptation_time": 198.7306625843048
+        }
+    },
+    {
+        "timestamp": "2024-12-17T09:07:46.701599",
+        "experiment": "EMNIST Contour -> EMNIST with T3A",
+        "metrics": {
+            "accuracy": 0.24297872340425533,
+            "avg_confidence": 0.8680862578939884,
+            "adaptation_time": 468.46073937416077
+        }
+    },
+    {
+        "timestamp": "2024-12-17T09:16:32.093118",
+        "experiment": "EMNIST Color+Contour -> EMNIST with T3A",
+        "metrics": {
+            "accuracy": 0.35090425531914893,
+            "avg_confidence": 0.9106798496652156,
+            "adaptation_time": 521.2630913257599
+        }
+    },
+    {
+        "timestamp": "2024-12-17T09:23:48.455375",
+        "experiment": "EMNIST Color+Contrast -> EMNIST with T3A",
+        "metrics": {
+            "accuracy": 0.8529255319148936,
+            "avg_confidence": 0.9858532294821232,
+            "adaptation_time": 432.2089776992798
+        }
+    },
+    {
+        "timestamp": "2024-12-17T09:30:03.415498",
+        "experiment": "EMNIST Color+Contrast+Contour -> EMNIST with T3A",
+        "metrics": {
+            "accuracy": 0.8676063829787234,
+            "avg_confidence": 0.9826928917905118,
+            "adaptation_time": 370.43946743011475
+        }
+    },
+    {
+        "timestamp": "2024-12-17T09:39:16.580261",
+        "experiment": "EMNIST Contour -> EMNIST with AugTTA",
+        "metrics": {
+            "accuracy": 0.07819148936170213,
+            "avg_confidence": 0.23748038677459068,
+            "adaptation_time": 467.68857502937317
+        }
+    },
+    {
+        "timestamp": "2024-12-17T09:49:23.147936",
+        "experiment": "EMNIST Color+Contour -> EMNIST with AugTTA",
+        "metrics": {
+            "accuracy": 0.19909574468085106,
+            "avg_confidence": 0.2529200463599347,
+            "adaptation_time": 523.227436542511
+        }
+    },
+    {
+        "timestamp": "2024-12-17T09:58:01.564776",
+        "experiment": "EMNIST Color+Contrast -> EMNIST with AugTTA",
+        "metrics": {
+            "accuracy": 0.5075,
+            "avg_confidence": 0.6903251925935137,
+            "adaptation_time": 434.1018786430359
+        }
+    },
+    {
+        "timestamp": "2024-12-17T10:05:35.486108",
+        "experiment": "EMNIST Color+Contrast+Contour -> EMNIST with AugTTA",
+        "metrics": {
+            "accuracy": 0.5509574468085107,
+            "avg_confidence": 0.7392321286302932,
+            "adaptation_time": 370.90284991264343
+        }
+    },
+    {
+        "timestamp": "2024-12-17T10:13:29.015355",
+        "experiment": "EMNIST Contour -> EMNIST with SHOT",
+        "metrics": {
+            "accuracy": 0.6704255319148936,
+            "avg_confidence": 0.9137268170904606,
+            "adaptation_time": 466.48502707481384
+        }
+    },
+    {
+        "timestamp": "2024-12-17T10:22:16.835706",
+        "experiment": "EMNIST Color+Contour -> EMNIST with SHOT",
+        "metrics": {
+            "accuracy": 0.6463297872340426,
+            "avg_confidence": 0.9222422052951569,
+            "adaptation_time": 520.3391971588135
+        }
+    },
+    {
+        "timestamp": "2024-12-17T10:29:34.242645",
+        "experiment": "EMNIST Color+Contrast -> EMNIST with SHOT",
+        "metrics": {
+            "accuracy": 0.8193085106382979,
+            "avg_confidence": 0.978289025895139,
+            "adaptation_time": 430.7071228027344
+        }
+    },
+    {
+        "timestamp": "2024-12-17T10:35:48.216641",
+        "experiment": "EMNIST Color+Contrast+Contour -> EMNIST with SHOT",
+        "metrics": {
+            "accuracy": 0.8352127659574468,
+            "avg_confidence": 0.9720472210011584,
+            "adaptation_time": 367.2510185241699
+        }
+    },
+    {
+        "timestamp": "2024-12-17T10:43:39.764543",
+        "experiment": "EMNIST Contour -> EMNIST with Style Transfer",
+        "metrics": {
+            "accuracy": 0.26143617021276594,
+            "avg_confidence": 0.32716261021634363,
+            "adaptation_time": 467.2373905181885
+        }
+    },
+    {
+        "timestamp": "2024-12-17T10:52:25.966634",
+        "experiment": "EMNIST Color+Contour -> EMNIST with Style Transfer",
+        "metrics": {
+            "accuracy": 0.2776063829787234,
+            "avg_confidence": 0.32883784415874073,
+            "adaptation_time": 521.5287277698517
+        }
+    },
+    {
+        "timestamp": "2024-12-17T10:59:41.410818",
+        "experiment": "EMNIST Color+Contrast -> EMNIST with Style Transfer",
+        "metrics": {
+            "accuracy": 0.7610106382978723,
+            "avg_confidence": 0.8860029756261947,
+            "adaptation_time": 431.1563444137573
+        }
+    },
+    {
+        "timestamp": "2024-12-17T11:05:52.182197",
+        "experiment": "EMNIST Color+Contrast+Contour -> EMNIST with Style Transfer",
+        "metrics": {
+            "accuracy": 0.8642021276595745,
+            "avg_confidence": 0.914510955404728,
+            "adaptation_time": 366.4567587375641
+        }
+    },
+    {
+        "timestamp": "2024-12-17T22:13:38.544902",
+        "experiment": "MNIST -> MNIST with T3A",
+        "metrics": {
+            "accuracy": 0.9903,
+            "avg_confidence": 0.9967372449874878,
+            "adaptation_time": 225.26446557044983
+        }
+    },
+    {
+        "timestamp": "2024-12-17T22:18:23.383419",
+        "experiment": "MNIST Contour -> MNIST with T3A",
+        "metrics": {
+            "accuracy": 0.9189,
+            "avg_confidence": 0.9641799124717713,
+            "adaptation_time": 281.71380376815796
+        }
+    },
+    {
+        "timestamp": "2024-12-17T22:23:29.762689",
+        "experiment": "MNIST Color+Contour -> MNIST with T3A",
+        "metrics": {
+            "accuracy": 0.9115,
+            "avg_confidence": 0.9783748929023742,
+            "adaptation_time": 303.49426078796387
+        }
+    },
+    {
+        "timestamp": "2024-12-17T22:27:50.904793",
+        "experiment": "MNIST Color+Contrast -> MNIST with T3A",
+        "metrics": {
+            "accuracy": 0.9913,
+            "avg_confidence": 0.9972925097465515,
+            "adaptation_time": 258.120703458786
+        }
+    },
+    {
+        "timestamp": "2024-12-17T22:33:21.780860",
+        "experiment": "MNIST Color+Contrast+Contour -> MNIST with T3A",
+        "metrics": {
+            "accuracy": 0.9017,
+            "avg_confidence": 0.9627773676872253,
+            "adaptation_time": 327.9901432991028
+        }
+    },
+    {
+        "timestamp": "2024-12-17T22:37:04.928665",
+        "experiment": "Fashion-MNIST -> Fashion-MNIST with T3A",
+        "metrics": {
+            "accuracy": 0.9211,
+            "avg_confidence": 0.9664875185966492,
+            "adaptation_time": 219.8952248096466
+        }
+    },
+    {
+        "timestamp": "2024-12-17T22:41:56.866931",
+        "experiment": "Fashion-MNIST Contour -> Fashion-MNIST with T3A",
+        "metrics": {
+            "accuracy": 0.4159,
+            "avg_confidence": 0.7257743714332581,
+            "adaptation_time": 289.0393602848053
+        }
+    },
+    {
+        "timestamp": "2024-12-17T22:47:18.416665",
+        "experiment": "Fashion-MNIST Color+Contour -> Fashion-MNIST with T3A",
+        "metrics": {
+            "accuracy": 0.3869,
+            "avg_confidence": 0.7678032149314881,
+            "adaptation_time": 318.5821039676666
+        }
+    },
+    {
+        "timestamp": "2024-12-17T22:51:52.653708",
+        "experiment": "Fashion-MNIST Color+Contrast -> Fashion-MNIST with T3A",
+        "metrics": {
+            "accuracy": 0.9081,
+            "avg_confidence": 0.9589579648971558,
+            "adaptation_time": 271.27789402008057
+        }
+    },
+    {
+        "timestamp": "2024-12-17T22:57:32.116072",
+        "experiment": "Fashion-MNIST Color+Contrast+Contour -> Fashion-MNIST with T3A",
+        "metrics": {
+            "accuracy": 0.4013,
+            "avg_confidence": 0.7204099775314331,
+            "adaptation_time": 336.5527012348175
+        }
+    },
+    {
+        "timestamp": "2024-12-17T23:41:30.616045",
+        "experiment": "MNIST -> MNIST with SHOT2",
+        "metrics": {
+            "accuracy": 0.9859,
+            "avg_confidence": 0.996556269454956,
+            "adaptation_time": 218.4836699962616
+        }
+    },
+    {
+        "timestamp": "2024-12-17T23:46:20.864691",
+        "experiment": "MNIST Contour -> MNIST with SHOT2",
+        "metrics": {
+            "accuracy": 0.963,
+            "avg_confidence": 0.9897991509437561,
+            "adaptation_time": 286.0718357563019
+        }
+    },
+    {
+        "timestamp": "2024-12-17T23:51:29.837947",
+        "experiment": "MNIST Color+Contour -> MNIST with SHOT2",
+        "metrics": {
+            "accuracy": 0.9574,
+            "avg_confidence": 0.9912838600158691,
+            "adaptation_time": 304.59345865249634
+        }
+    },
+    {
+        "timestamp": "2024-12-17T23:55:49.257524",
+        "experiment": "MNIST Color+Contrast -> MNIST with SHOT2",
+        "metrics": {
+            "accuracy": 0.9816,
+            "avg_confidence": 0.9967517711639404,
+            "adaptation_time": 255.39889001846313
+        }
+    },
+    {
+        "timestamp": "2024-12-18T00:01:18.880740",
+        "experiment": "MNIST Color+Contrast+Contour -> MNIST with SHOT2",
+        "metrics": {
+            "accuracy": 0.9462,
+            "avg_confidence": 0.9913346927642822,
+            "adaptation_time": 325.44141125679016
+        }
+    },
+    {
+        "timestamp": "2024-12-18T00:08:04.473676",
+        "experiment": "MNIST Color -> MNIST with T3A",
+        "metrics": {
+            "accuracy": 0.9887,
+            "avg_confidence": 0.9980958755493164,
+            "adaptation_time": 238.66925764083862
+        }
+    },
+    {
+        "timestamp": "2024-12-18T00:12:11.360963",
+        "experiment": "MNIST Color -> MNIST with SHOT2",
+        "metrics": {
+            "accuracy": 0.9776,
+            "avg_confidence": 0.99708235206604,
+            "adaptation_time": 242.54923820495605
+        }
+    },
+    {
+        "timestamp": "2024-12-18T00:16:10.524720",
+        "experiment": "MNIST -> MNIST with MEMO",
+        "metrics": {
+            "accuracy": 0.098,
+            "avg_confidence": NaN,
+            "adaptation_time": 225.52324557304382
+        }
+    },
+    {
+        "timestamp": "2024-12-18T00:20:24.819148",
+        "experiment": "MNIST Color -> MNIST with MEMO",
+        "metrics": {
+            "accuracy": 0.098,
+            "avg_confidence": NaN,
+            "adaptation_time": 240.85729002952576
+        }
+    },
+    {
+        "timestamp": "2024-12-18T00:25:18.389301",
+        "experiment": "MNIST Contour -> MNIST with MEMO",
+        "metrics": {
+            "accuracy": 0.098,
+            "avg_confidence": NaN,
+            "adaptation_time": 279.82198762893677
+        }
+    },
+    {
+        "timestamp": "2024-12-18T00:30:49.916242",
+        "experiment": "MNIST Color+Contour -> MNIST with MEMO",
+        "metrics": {
+            "accuracy": 0.098,
+            "avg_confidence": NaN,
+            "adaptation_time": 317.6201810836792
+        }
+    },
+    {
+        "timestamp": "2024-12-18T00:41:45.954888",
+        "experiment": "MNIST Color+Contrast+Contour -> MNIST",
+        "metrics": {
+            "accuracy": 0.8759,
+            "avg_confidence": 0.9328958045959472,
+            "adaptation_time": 389.90565395355225
+        }
+    },
+    {
+        "timestamp": "2024-12-18T00:48:14.395922",
+        "experiment": "Fashion-MNIST Color+Contrast+Contour -> Fashion-MNIST",
+        "metrics": {
+            "accuracy": 0.3216,
+            "avg_confidence": 0.5431086208343506,
+            "adaptation_time": 385.52473640441895
+        }
+    },
+    {
+        "timestamp": "2024-12-18T00:59:15.144187",
+        "experiment": "EMNIST Color+Contrast+Contour -> EMNIST",
+        "metrics": {
+            "accuracy": 0.3527127659574468,
+            "avg_confidence": 0.34858631641306775,
+            "adaptation_time": 655.8992967605591
+        }
+    },
+    {
+        "timestamp": "2024-12-18T02:53:28.014877",
+        "experiment": "MNIST -> MNIST with MEMO",
+        "metrics": {
+            "accuracy": 0.986,
+            "avg_confidence": 0.9875043222427368,
+            "adaptation_time": 197.89979672431946
+        }
+    },
+    {
+        "timestamp": "2024-12-18T02:57:12.154965",
+        "experiment": "MNIST Color -> MNIST with MEMO",
+        "metrics": {
+            "accuracy": 0.97,
+            "avg_confidence": 0.988902045917511,
+            "adaptation_time": 213.21780157089233
+        }
+    },
+    {
+        "timestamp": "2024-12-18T03:01:38.605055",
+        "experiment": "MNIST Contour -> MNIST with MEMO",
+        "metrics": {
+            "accuracy": 0.7881,
+            "avg_confidence": 0.8137279034614563,
+            "adaptation_time": 254.8330409526825
+        }
+    },
+    {
+        "timestamp": "2024-12-18T03:06:45.549498",
+        "experiment": "MNIST Color+Contour -> MNIST with MEMO",
+        "metrics": {
+            "accuracy": 0.6892,
+            "avg_confidence": 0.9457537892341614,
+            "adaptation_time": 291.26218461990356
+        }
+    },
+    {
+        "timestamp": "2024-12-18T03:12:28.406766",
+        "experiment": "MNIST Color+Contrast -> MNIST with MEMO",
+        "metrics": {
+            "accuracy": 0.9735,
+            "avg_confidence": 0.9803286130905151,
+            "adaptation_time": 331.6378755569458
+        }
+    },
+    {
+        "timestamp": "2024-12-18T03:17:46.370645",
+        "experiment": "MNIST Color+Contrast+Contour -> MNIST with MEMO",
+        "metrics": {
+            "accuracy": 0.7581,
+            "avg_confidence": 0.8324597367286682,
+            "adaptation_time": 306.7763617038727
+        }
+    },
+    {
+        "timestamp": "2024-12-18T03:21:09.678722",
+        "experiment": "MNIST -> MNIST with Test-Time Style Shift",
+        "metrics": {
+            "accuracy": 0.9901,
+            "avg_confidence": 0.9954625504493714,
+            "adaptation_time": 196.81919026374817
+        }
+    },
+    {
+        "timestamp": "2024-12-18T03:24:45.014956",
+        "experiment": "MNIST Color -> MNIST with Test-Time Style Shift",
+        "metrics": {
+            "accuracy": 0.9885,
+            "avg_confidence": 0.9975011585235596,
+            "adaptation_time": 209.405029296875
+        }
+    },
+    {
+        "timestamp": "2024-12-18T03:28:59.220319",
+        "experiment": "MNIST Contour -> MNIST with Test-Time Style Shift",
+        "metrics": {
+            "accuracy": 0.9083,
+            "avg_confidence": 0.9342237802505493,
+            "adaptation_time": 247.95411038398743
+        }
+    },
+    {
+        "timestamp": "2024-12-18T03:33:43.263667",
+        "experiment": "MNIST Color+Contour -> MNIST with Test-Time Style Shift",
+        "metrics": {
+            "accuracy": 0.9029,
+            "avg_confidence": 0.9709505137443543,
+            "adaptation_time": 277.78218722343445
+        }
+    },
+    {
+        "timestamp": "2024-12-18T03:37:43.624582",
+        "experiment": "MNIST Color+Contrast -> MNIST with Test-Time Style Shift",
+        "metrics": {
+            "accuracy": 0.9914,
+            "avg_confidence": 0.9965080056190491,
+            "adaptation_time": 234.25533938407898
+        }
+    },
+    {
+        "timestamp": "2024-12-18T03:42:53.452325",
+        "experiment": "MNIST Color+Contrast+Contour -> MNIST with Test-Time Style Shift",
+        "metrics": {
+            "accuracy": 0.8759,
+            "avg_confidence": 0.9328958045959472,
+            "adaptation_time": 303.7117671966553
+        }
+    },
+    {
+        "timestamp": "2024-12-18T03:46:28.207597",
+        "experiment": "Fashion-MNIST Color -> Fashion-MNIST with T3A",
+        "metrics": {
+            "accuracy": 0.9157,
+            "avg_confidence": 0.9679411013603211,
+            "adaptation_time": 211.9616894721985
+        }
+    },
+    {
+        "timestamp": "2024-12-18T03:49:55.506181",
+        "experiment": "Fashion-MNIST -> Fashion-MNIST with MEMO",
+        "metrics": {
+            "accuracy": 0.8224,
+            "avg_confidence": 0.9280021207809448,
+            "adaptation_time": 196.52043652534485
+        }
+    },
+    {
+        "timestamp": "2024-12-18T03:53:35.868311",
+        "experiment": "Fashion-MNIST Color -> Fashion-MNIST with MEMO",
+        "metrics": {
+            "accuracy": 0.8528,
+            "avg_confidence": 0.9350237854003907,
+            "adaptation_time": 209.63513445854187
+        }
+    },
+    {
+        "timestamp": "2024-12-18T03:57:59.834823",
+        "experiment": "Fashion-MNIST Contour -> Fashion-MNIST with MEMO",
+        "metrics": {
+            "accuracy": 0.1459,
+            "avg_confidence": 0.8967093400001526,
+            "adaptation_time": 253.3509590625763
+        }
+    },
+    {
+        "timestamp": "2024-12-18T04:02:49.764652",
+        "experiment": "Fashion-MNIST Color+Contour -> Fashion-MNIST with MEMO",
+        "metrics": {
+            "accuracy": 0.1782,
+            "avg_confidence": 0.8579786595344543,
+            "adaptation_time": 279.3947284221649
+        }
+    },
+    {
+        "timestamp": "2024-12-18T04:06:48.384653",
+        "experiment": "Fashion-MNIST Color+Contrast -> Fashion-MNIST with MEMO",
+        "metrics": {
+            "accuracy": 0.8174,
+            "avg_confidence": 0.9103124868392944,
+            "adaptation_time": 227.9365153312683
+        }
+    },
+    {
+        "timestamp": "2024-12-18T04:12:00.789083",
+        "experiment": "Fashion-MNIST Color+Contrast+Contour -> Fashion-MNIST with MEMO",
+        "metrics": {
+            "accuracy": 0.1583,
+            "avg_confidence": 0.8212898404121399,
+            "adaptation_time": 301.81479358673096
+        }
+    },
+    {
+        "timestamp": "2024-12-18T04:15:17.702574",
+        "experiment": "Fashion-MNIST -> Fashion-MNIST with SHOT2",
+        "metrics": {
+            "accuracy": 0.8754,
+            "avg_confidence": 0.9823655157089234,
+            "adaptation_time": 193.05861115455627
+        }
+    },
+    {
+        "timestamp": "2024-12-18T04:18:48.237609",
+        "experiment": "Fashion-MNIST Color -> Fashion-MNIST with SHOT2",
+        "metrics": {
+            "accuracy": 0.856,
+            "avg_confidence": 0.9870620475769043,
+            "adaptation_time": 206.79862236976624
+        }
+    },
+    {
+        "timestamp": "2024-12-18T04:23:03.514655",
+        "experiment": "Fashion-MNIST Contour -> Fashion-MNIST with SHOT2",
+        "metrics": {
+            "accuracy": 0.6729,
+            "avg_confidence": 0.9469175486564636,
+            "adaptation_time": 251.56520295143127
+        }
+    },
+    {
+        "timestamp": "2024-12-18T04:27:45.686055",
+        "experiment": "Fashion-MNIST Color+Contour -> Fashion-MNIST with SHOT2",
+        "metrics": {
+            "accuracy": 0.5433,
+            "avg_confidence": 0.9420083748817444,
+            "adaptation_time": 278.3210322856903
+        }
+    },
+    {
+        "timestamp": "2024-12-18T04:31:36.500582",
+        "experiment": "Fashion-MNIST Color+Contrast -> Fashion-MNIST with SHOT2",
+        "metrics": {
+            "accuracy": 0.8549,
+            "avg_confidence": 0.9869154957771301,
+            "adaptation_time": 227.10424995422363
+        }
+    },
+    {
+        "timestamp": "2024-12-18T04:36:42.034773",
+        "experiment": "Fashion-MNIST Color+Contrast+Contour -> Fashion-MNIST with SHOT2",
+        "metrics": {
+            "accuracy": 0.6074,
+            "avg_confidence": 0.9387271821975708,
+            "adaptation_time": 301.84550189971924
+        }
+    },
+    {
+        "timestamp": "2024-12-18T04:40:01.201215",
+        "experiment": "Fashion-MNIST -> Fashion-MNIST with Test-Time Style Shift",
+        "metrics": {
+            "accuracy": 0.9188,
+            "avg_confidence": 0.9527621821403504,
+            "adaptation_time": 192.83973813056946
+        }
+    },
+    {
+        "timestamp": "2024-12-18T04:43:32.976870",
+        "experiment": "Fashion-MNIST Color -> Fashion-MNIST with Test-Time Style Shift",
+        "metrics": {
+            "accuracy": 0.9155,
+            "avg_confidence": 0.9608385062217712,
+            "adaptation_time": 205.68308568000793
+        }
+    },
+    {
+        "timestamp": "2024-12-18T04:47:48.219419",
+        "experiment": "Fashion-MNIST Contour -> Fashion-MNIST with Test-Time Style Shift",
+        "metrics": {
+            "accuracy": 0.3654,
+            "avg_confidence": 0.5786001056671143,
+            "adaptation_time": 249.13551688194275
+        }
+    },
+    {
+        "timestamp": "2024-12-18T04:52:32.466314",
+        "experiment": "Fashion-MNIST Color+Contour -> Fashion-MNIST with Test-Time Style Shift",
+        "metrics": {
+            "accuracy": 0.3639,
+            "avg_confidence": 0.6094646281242371,
+            "adaptation_time": 278.204213142395
+        }
+    },
+    {
+        "timestamp": "2024-12-18T04:56:25.966113",
+        "experiment": "Fashion-MNIST Color+Contrast -> Fashion-MNIST with Test-Time Style Shift",
+        "metrics": {
+            "accuracy": 0.9075,
+            "avg_confidence": 0.942801210975647,
+            "adaptation_time": 227.22165179252625
+        }
+    },
+    {
+        "timestamp": "2024-12-18T05:01:33.001439",
+        "experiment": "Fashion-MNIST Color+Contrast+Contour -> Fashion-MNIST with Test-Time Style Shift",
+        "metrics": {
+            "accuracy": 0.3216,
+            "avg_confidence": 0.5431086208343506,
+            "adaptation_time": 300.9785523414612
+        }
+    },
+    {
+        "timestamp": "2024-12-18T05:07:40.189461",
+        "experiment": "EMNIST -> EMNIST with T3A",
+        "metrics": {
+            "accuracy": 0.8698936170212765,
+            "avg_confidence": 0.9242608703450954,
+            "adaptation_time": 361.61229634284973
+        }
+    },
+    {
+        "timestamp": "2024-12-18T05:14:11.728642",
+        "experiment": "EMNIST Color -> EMNIST with T3A",
+        "metrics": {
+            "accuracy": 0.8695744680851064,
+            "avg_confidence": 0.9346827847906883,
+            "adaptation_time": 385.8822317123413
+        }
+    },
+    {
+        "timestamp": "2024-12-18T05:21:58.117485",
+        "experiment": "EMNIST Contour -> EMNIST with T3A",
+        "metrics": {
+            "accuracy": 0.27367021276595743,
+            "avg_confidence": 0.37715659608232216,
+            "adaptation_time": 461.14803075790405
+        }
+    },
+    {
+        "timestamp": "2024-12-18T05:30:36.263438",
+        "experiment": "EMNIST Color+Contour -> EMNIST with T3A",
+        "metrics": {
+            "accuracy": 0.3693085106382979,
+            "avg_confidence": 0.5225233400628921,
+            "adaptation_time": 512.8689000606537
+        }
+    },
+    {
+        "timestamp": "2024-12-18T05:37:44.993164",
+        "experiment": "EMNIST Color+Contrast -> EMNIST with T3A",
+        "metrics": {
+            "accuracy": 0.8536702127659574,
+            "avg_confidence": 0.9153415375567497,
+            "adaptation_time": 423.27298164367676
+        }
+    },
+    {
+        "timestamp": "2024-12-18T05:47:06.990012",
+        "experiment": "EMNIST Color+Contrast+Contour -> EMNIST with T3A",
+        "metrics": {
+            "accuracy": 0.3705851063829787,
+            "avg_confidence": 0.41379723924271605,
+            "adaptation_time": 556.5767488479614
+        }
+    },
+    {
+        "timestamp": "2024-12-18T05:53:27.253275",
+        "experiment": "EMNIST -> EMNIST with MEMO",
+        "metrics": {
+            "accuracy": 0.6115957446808511,
+            "avg_confidence": 0.7681344981903725,
+            "adaptation_time": 360.68952775001526
+        }
+    },
+    {
+        "timestamp": "2024-12-18T06:00:15.120900",
+        "experiment": "EMNIST Color -> EMNIST with MEMO",
+        "metrics": {
+            "accuracy": 0.5845744680851064,
+            "avg_confidence": 0.7901218753165387,
+            "adaptation_time": 388.16780710220337
+        }
+    },
+    {
+        "timestamp": "2024-12-18T06:08:12.912811",
+        "experiment": "EMNIST Contour -> EMNIST with MEMO",
+        "metrics": {
+            "accuracy": 0.042925531914893615,
+            "avg_confidence": 0.6719096409006322,
+            "adaptation_time": 458.1440258026123
+        }
+    },
+    {
+        "timestamp": "2024-12-18T06:17:07.645366",
+        "experiment": "EMNIST Color+Contour -> EMNIST with MEMO",
+        "metrics": {
+            "accuracy": 0.09835106382978723,
+            "avg_confidence": 0.7496923152436601,
+            "adaptation_time": 515.2432820796967
+        }
+    },
+    {
+        "timestamp": "2024-12-18T06:24:32.570393",
+        "experiment": "EMNIST Color+Contrast -> EMNIST with MEMO",
+        "metrics": {
+            "accuracy": 0.5787765957446809,
+            "avg_confidence": 0.7054244649156611,
+            "adaptation_time": 425.3367428779602
+        }
+    },
+    {
+        "timestamp": "2024-12-18T06:34:08.997264",
+        "experiment": "EMNIST Color+Contrast+Contour -> EMNIST with MEMO",
+        "metrics": {
+            "accuracy": 0.09632978723404255,
+            "avg_confidence": 0.6312348149177875,
+            "adaptation_time": 556.8053712844849
+        }
+    },
+    {
+        "timestamp": "2024-12-18T06:40:16.825159",
+        "experiment": "EMNIST -> EMNIST with SHOT2",
+        "metrics": {
+            "accuracy": 0.8352127659574468,
+            "avg_confidence": 0.9720472210011584,
+            "adaptation_time": 361.0834536552429
+        }
+    },
+    {
+        "timestamp": "2024-12-18T06:46:50.707404",
+        "experiment": "EMNIST Color -> EMNIST with SHOT2",
+        "metrics": {
+            "accuracy": 0.8145212765957447,
+            "avg_confidence": 0.9782728674056682,
+            "adaptation_time": 387.30256032943726
+        }
+    },
+    {
+        "timestamp": "2024-12-18T06:54:35.169972",
+        "experiment": "EMNIST Contour -> EMNIST with SHOT2",
+        "metrics": {
+            "accuracy": 0.6704255319148936,
+            "avg_confidence": 0.9137268170904606,
+            "adaptation_time": 457.7880792617798
+        }
+    },
+    {
+        "timestamp": "2024-12-18T07:03:16.074116",
+        "experiment": "EMNIST Color+Contour -> EMNIST with SHOT2",
+        "metrics": {
+            "accuracy": 0.6463297872340426,
+            "avg_confidence": 0.9222422052951569,
+            "adaptation_time": 514.1805562973022
+        }
+    },
+    {
+        "timestamp": "2024-12-18T07:10:31.017037",
+        "experiment": "EMNIST Color+Contrast -> EMNIST with SHOT2",
+        "metrics": {
+            "accuracy": 0.8193085106382979,
+            "avg_confidence": 0.978289025895139,
+            "adaptation_time": 428.33212995529175
+        }
+    },
+    {
+        "timestamp": "2024-12-18T07:19:57.403140",
+        "experiment": "EMNIST Color+Contrast+Contour -> EMNIST with SHOT2",
+        "metrics": {
+            "accuracy": 0.6547340425531915,
+            "avg_confidence": 0.9175530142479754,
+            "adaptation_time": 559.7579996585846
+        }
+    },
+    {
+        "timestamp": "2024-12-18T07:26:08.173348",
+        "experiment": "EMNIST -> EMNIST with Test-Time Style Shift",
+        "metrics": {
+            "accuracy": 0.8676063829787234,
+            "avg_confidence": 0.9131082035632844,
+            "adaptation_time": 359.4797205924988
+        }
+    },
+    {
+        "timestamp": "2024-12-18T07:32:46.712519",
+        "experiment": "EMNIST Color -> EMNIST with Test-Time Style Shift",
+        "metrics": {
+            "accuracy": 0.8688829787234043,
+            "avg_confidence": 0.9260702348262706,
+            "adaptation_time": 387.3566551208496
+        }
+    },
+    {
+        "timestamp": "2024-12-18T07:40:34.381355",
+        "experiment": "EMNIST Contour -> EMNIST with Style Transfer",
+        "metrics": {
+            "accuracy": 0.24297872340425533,
+            "avg_confidence": 0.32115810140650325,
+            "adaptation_time": 456.6268513202667
+        }
+    },
+    {
+        "timestamp": "2024-12-18T07:49:19.603343",
+        "experiment": "EMNIST Color+Contour -> EMNIST with Style Transfer",
+        "metrics": {
+            "accuracy": 0.35090425531914893,
+            "avg_confidence": 0.45490602087467275,
+            "adaptation_time": 514.1487469673157
+        }
+    },
+    {
+        "timestamp": "2024-12-18T07:56:37.540953",
+        "experiment": "EMNIST Color+Contrast -> EMNIST with Style Transfer",
+        "metrics": {
+            "accuracy": 0.8529255319148936,
+            "avg_confidence": 0.9035834921167252,
+            "adaptation_time": 426.69643211364746
+        }
+    },
+    {
+        "timestamp": "2024-12-18T08:06:06.880761",
+        "experiment": "EMNIST Color+Contrast+Contour -> EMNIST with Style Transfer",
+        "metrics": {
+            "accuracy": 0.3527127659574468,
+            "avg_confidence": 0.34858631641306775,
+            "adaptation_time": 558.1484022140503
+        }
+    },
+    {
+        "timestamp": "2024-12-18T12:28:21.568786",
+        "experiment": "MNIST -> MNIST with Test-Time Style Shift",
+        "metrics": {
+            "accuracy": 0.9905,
+            "avg_confidence": 0.9954316251754761,
+            "adaptation_time": 212.28911972045898
+        }
+    },
+    {
+        "timestamp": "2024-12-18T12:32:17.465295",
+        "experiment": "MNIST Color -> MNIST with Test-Time Style Shift",
+        "metrics": {
+            "accuracy": 0.9886,
+            "avg_confidence": 0.997513843536377,
+            "adaptation_time": 230.25328469276428
+        }
+    },
+    {
+        "timestamp": "2025-01-13T11:41:13.570703",
+        "experiment": "MNIST-100 Noise -> MNIST-100",
+        "metrics": {
+            "accuracy": 0.65,
+            "avg_confidence": 0.1793309783935547,
+            "adaptation_time": 0.7694764137268066
+        }
+    },
+    {
+        "timestamp": "2025-01-13T11:41:32.035359",
+        "experiment": "MNIST-100 Contour -> MNIST-100",
+        "metrics": {
+            "accuracy": 0.51,
+            "avg_confidence": 0.6222324371337891,
+            "adaptation_time": 0.8027317523956299
+        }
+    },
+    {
+        "timestamp": "2025-01-13T11:41:50.032660",
+        "experiment": "MNIST-100 Contrast -> MNIST-100",
+        "metrics": {
+            "accuracy": 0.73,
+            "avg_confidence": 0.657612190246582,
+            "adaptation_time": 0.7010366916656494
+        }
+    },
+    {
+        "timestamp": "2025-01-13T11:42:08.034757",
+        "experiment": "MNIST-100 Blur -> MNIST-100",
+        "metrics": {
+            "accuracy": 0.71,
+            "avg_confidence": 0.6492899703979492,
+            "adaptation_time": 0.6607000827789307
+        }
+    },
+    {
+        "timestamp": "2025-01-13T11:42:25.892602",
+        "experiment": "MNIST-100 Invert -> MNIST-100",
+        "metrics": {
+            "accuracy": 0.04,
+            "avg_confidence": 0.12149025440216064,
+            "adaptation_time": 0.6624743938446045
+        }
+    },
+    {
+        "timestamp": "2025-01-13T11:42:44.386834",
+        "experiment": "MNIST-100 Color+Contour -> MNIST-100",
+        "metrics": {
+            "accuracy": 0.44,
+            "avg_confidence": 0.5843727493286133,
+            "adaptation_time": 0.8699741363525391
+        }
+    },
+    {
+        "timestamp": "2025-01-13T11:43:02.450891",
+        "experiment": "MNIST-100 Color+Contrast -> MNIST-100",
+        "metrics": {
+            "accuracy": 0.63,
+            "avg_confidence": 0.6057886505126953,
+            "adaptation_time": 0.7050821781158447
+        }
+    },
+    {
+        "timestamp": "2025-01-13T11:43:20.197767",
+        "experiment": "MNIST-100 Color+Noise -> MNIST-100",
+        "metrics": {
+            "accuracy": 0.29,
+            "avg_confidence": 0.12766010761260987,
+            "adaptation_time": 0.7567636966705322
+        }
+    },
+    {
+        "timestamp": "2025-01-13T11:43:38.783052",
+        "experiment": "MNIST-100 Contour+Noise -> MNIST-100",
+        "metrics": {
+            "accuracy": 0.46,
+            "avg_confidence": 0.1520916748046875,
+            "adaptation_time": 0.9865515232086182
+        }
+    },
+    {
+        "timestamp": "2025-01-13T11:43:56.881080",
+        "experiment": "MNIST-100 Contrast+Noise -> MNIST-100",
+        "metrics": {
+            "accuracy": 0.64,
+            "avg_confidence": 0.18349628448486327,
+            "adaptation_time": 0.7737505435943604
+        }
+    },
+    {
+        "timestamp": "2025-01-13T11:44:15.777799",
+        "experiment": "MNIST-100 Color+Contour+Noise -> MNIST-100",
+        "metrics": {
+            "accuracy": 0.26,
+            "avg_confidence": 0.1113511848449707,
+            "adaptation_time": 1.0462963581085205
+        }
+    },
+    {
+        "timestamp": "2025-01-13T11:44:33.855256",
+        "experiment": "MNIST-100 Color+Contrast+Noise -> MNIST-100",
+        "metrics": {
+            "accuracy": 0.21,
+            "avg_confidence": 0.12022504329681397,
+            "adaptation_time": 0.7345318794250488
+        }
+    },
+    {
+        "timestamp": "2025-01-13T11:44:52.710578",
+        "experiment": "MNIST-100 Contour+Contrast+Noise -> MNIST-100",
+        "metrics": {
+            "accuracy": 0.46,
+            "avg_confidence": 0.1520916748046875,
+            "adaptation_time": 0.9969589710235596
+        }
+    },
+    {
+        "timestamp": "2025-01-13T11:45:11.046845",
+        "experiment": "MNIST-100 Color+Contour+Contrast+Noise -> MNIST-100",
+        "metrics": {
+            "accuracy": 0.3,
+            "avg_confidence": 0.1100608777999878,
+            "adaptation_time": 1.106900930404663
+        }
+    },
+    {
+        "timestamp": "2025-01-13T11:45:29.691175",
+        "experiment": "MNIST-100 All Transforms -> MNIST-100",
+        "metrics": {
+            "accuracy": 0.19,
+            "avg_confidence": 0.1180498743057251,
+            "adaptation_time": 1.224919080734253
+        }
+    },
+    {
+        "timestamp": "2025-01-13T11:58:43.797332",
+        "experiment": "MNIST-1K Noise -> MNIST-1K",
+        "metrics": {
+            "accuracy": 0.902,
+            "avg_confidence": 0.9357072677612305,
+            "adaptation_time": 6.250491142272949
+        }
+    },
+    {
+        "timestamp": "2025-01-13T11:59:08.455817",
+        "experiment": "MNIST-1K Contour -> MNIST-1K",
+        "metrics": {
+            "accuracy": 0.752,
+            "avg_confidence": 0.8864630165100098,
+            "adaptation_time": 6.788985013961792
+        }
+    },
+    {
+        "timestamp": "2025-01-13T11:59:32.229336",
+        "experiment": "MNIST-1K Contrast -> MNIST-1K",
+        "metrics": {
+            "accuracy": 0.929,
+            "avg_confidence": 0.9492572402954101,
+            "adaptation_time": 5.869032621383667
+        }
+    },
+    {
+        "timestamp": "2025-01-13T11:59:56.661220",
+        "experiment": "MNIST-1K Blur -> MNIST-1K",
+        "metrics": {
+            "accuracy": 0.93,
+            "avg_confidence": 0.952914436340332,
+            "adaptation_time": 6.028149604797363
+        }
+    },
+    {
+        "timestamp": "2025-01-13T12:00:20.206089",
+        "experiment": "MNIST-1K Invert -> MNIST-1K",
+        "metrics": {
+            "accuracy": 0.086,
+            "avg_confidence": 0.5887891387939453,
+            "adaptation_time": 5.704216957092285
+        }
+    },
+    {
+        "timestamp": "2025-01-13T12:00:46.132917",
+        "experiment": "MNIST-1K Color+Contour -> MNIST-1K",
+        "metrics": {
+            "accuracy": 0.721,
+            "avg_confidence": 0.9414652709960938,
+            "adaptation_time": 7.501652717590332
+        }
+    },
+    {
+        "timestamp": "2025-01-13T12:01:10.159357",
+        "experiment": "MNIST-1K Color+Contrast -> MNIST-1K",
+        "metrics": {
+            "accuracy": 0.913,
+            "avg_confidence": 0.9696748809814453,
+            "adaptation_time": 6.142576694488525
+        }
+    },
+    {
+        "timestamp": "2025-01-13T12:01:34.283083",
+        "experiment": "MNIST-1K Color+Noise -> MNIST-1K",
+        "metrics": {
+            "accuracy": 0.887,
+            "avg_confidence": 0.9449802017211915,
+            "adaptation_time": 6.525532007217407
+        }
+    },
+    {
+        "timestamp": "2025-01-13T12:02:01.179831",
+        "experiment": "MNIST-1K Contour+Noise -> MNIST-1K",
+        "metrics": {
+            "accuracy": 0.718,
+            "avg_confidence": 0.8730845222473145,
+            "adaptation_time": 9.175135612487793
+        }
+    },
+    {
+        "timestamp": "2025-01-13T12:02:25.771603",
+        "experiment": "MNIST-1K Contrast+Noise -> MNIST-1K",
+        "metrics": {
+            "accuracy": 0.897,
+            "avg_confidence": 0.9259042701721192,
+            "adaptation_time": 7.09186863899231
+        }
+    },
+    {
+        "timestamp": "2025-01-13T12:02:54.145955",
+        "experiment": "MNIST-1K Color+Contour+Noise -> MNIST-1K",
+        "metrics": {
+            "accuracy": 0.637,
+            "avg_confidence": 0.8732235298156739,
+            "adaptation_time": 9.987152338027954
+        }
+    },
+    {
+        "timestamp": "2025-01-13T12:03:15.124921",
+        "experiment": "MNIST-1K Color+Contrast+Noise -> MNIST-1K",
+        "metrics": {
+            "accuracy": 0.884,
+            "avg_confidence": 0.942526222229004,
+            "adaptation_time": 4.891631841659546
+        }
+    },
+    {
+        "timestamp": "2025-01-13T12:03:31.226682",
+        "experiment": "MNIST-1K Contour+Contrast+Noise -> MNIST-1K",
+        "metrics": {
+            "accuracy": 0.718,
+            "avg_confidence": 0.8730845222473145,
+            "adaptation_time": 6.777641773223877
+        }
+    },
+    {
+        "timestamp": "2025-01-13T12:03:46.476769",
+        "experiment": "MNIST-1K Color+Contour+Contrast+Noise -> MNIST-1K",
+        "metrics": {
+            "accuracy": 0.635,
+            "avg_confidence": 0.8755771141052247,
+            "adaptation_time": 6.331272125244141
+        }
+    },
+    {
+        "timestamp": "2025-01-13T12:04:02.207709",
+        "experiment": "MNIST-1K All Transforms -> MNIST-1K",
+        "metrics": {
+            "accuracy": 0.603,
+            "avg_confidence": 0.8776713027954102,
+            "adaptation_time": 6.651809215545654
+        }
+    },
+    {
+        "timestamp": "2025-01-13T12:06:52.314782",
+        "experiment": "MNIST-5K Noise -> MNIST-5K",
+        "metrics": {
+            "accuracy": 0.971,
+            "avg_confidence": 0.9863080238342286,
+            "adaptation_time": 18.549012184143066
+        }
+    },
+    {
+        "timestamp": "2025-01-13T12:07:23.823069",
+        "experiment": "MNIST-5K Contour -> MNIST-5K",
+        "metrics": {
+            "accuracy": 0.806,
+            "avg_confidence": 0.9128959536552429,
+            "adaptation_time": 21.603583335876465
+        }
+    },
+    {
+        "timestamp": "2025-01-13T12:07:51.676177",
+        "experiment": "MNIST-5K Contrast -> MNIST-5K",
+        "metrics": {
+            "accuracy": 0.9678,
+            "avg_confidence": 0.980299610710144,
+            "adaptation_time": 18.275806427001953
+        }
+    },
+    {
+        "timestamp": "2025-01-13T12:08:19.779706",
+        "experiment": "MNIST-5K Blur -> MNIST-5K",
+        "metrics": {
+            "accuracy": 0.966,
+            "avg_confidence": 0.9843915459632874,
+            "adaptation_time": 18.45428228378296
+        }
+    },
+    {
+        "timestamp": "2025-01-13T12:08:47.421101",
+        "experiment": "MNIST-5K Invert -> MNIST-5K",
+        "metrics": {
+            "accuracy": 0.3,
+            "avg_confidence": 0.8041016140937806,
+            "adaptation_time": 18.0327787399292
+        }
+    },
+    {
+        "timestamp": "2025-01-13T12:09:21.436047",
+        "experiment": "MNIST-5K Color+Contour -> MNIST-5K",
+        "metrics": {
+            "accuracy": 0.8396,
+            "avg_confidence": 0.9653402053833008,
+            "adaptation_time": 23.790891885757446
+        }
+    },
+    {
+        "timestamp": "2025-01-13T12:09:51.365195",
+        "experiment": "MNIST-5K Color+Contrast -> MNIST-5K",
+        "metrics": {
+            "accuracy": 0.9618,
+            "avg_confidence": 0.9892830308914184,
+            "adaptation_time": 19.635925769805908
+        }
+    },
+    {
+        "timestamp": "2025-01-13T12:10:23.788367",
+        "experiment": "MNIST-5K Color+Noise -> MNIST-5K",
+        "metrics": {
+            "accuracy": 0.9608,
+            "avg_confidence": 0.9876618944168091,
+            "adaptation_time": 22.405566453933716
+        }
+    },
+    {
+        "timestamp": "2025-01-13T12:11:02.848832",
+        "experiment": "MNIST-5K Contour+Noise -> MNIST-5K",
+        "metrics": {
+            "accuracy": 0.8404,
+            "avg_confidence": 0.9374661127090455,
+            "adaptation_time": 29.073118209838867
+        }
+    },
+    {
+        "timestamp": "2025-01-13T12:11:33.878764",
+        "experiment": "MNIST-5K Contrast+Noise -> MNIST-5K",
+        "metrics": {
+            "accuracy": 0.9662,
+            "avg_confidence": 0.9845798931121826,
+            "adaptation_time": 21.31017780303955
+        }
+    },
+    {
+        "timestamp": "2025-01-13T12:12:14.561944",
+        "experiment": "MNIST-5K Color+Contour+Noise -> MNIST-5K",
+        "metrics": {
+            "accuracy": 0.7902,
+            "avg_confidence": 0.9483823376655579,
+            "adaptation_time": 30.667240619659424
+        }
+    },
+    {
+        "timestamp": "2025-01-13T12:12:45.736840",
+        "experiment": "MNIST-5K Color+Contrast+Noise -> MNIST-5K",
+        "metrics": {
+            "accuracy": 0.9634,
+            "avg_confidence": 0.9892603303909302,
+            "adaptation_time": 21.28110408782959
+        }
+    },
+    {
+        "timestamp": "2025-01-13T12:13:25.469301",
+        "experiment": "MNIST-5K Contour+Contrast+Noise -> MNIST-5K",
+        "metrics": {
+            "accuracy": 0.8404,
+            "avg_confidence": 0.9374661127090455,
+            "adaptation_time": 29.67794132232666
+        }
+    },
+    {
+        "timestamp": "2025-01-13T12:14:06.898853",
+        "experiment": "MNIST-5K Color+Contour+Contrast+Noise -> MNIST-5K",
+        "metrics": {
+            "accuracy": 0.7898,
+            "avg_confidence": 0.9442515417098999,
+            "adaptation_time": 31.589378595352173
+        }
+    },
+    {
+        "timestamp": "2025-01-13T12:14:47.954394",
+        "experiment": "MNIST-5K All Transforms -> MNIST-5K",
+        "metrics": {
+            "accuracy": 0.7554,
+            "avg_confidence": 0.9529890846252441,
+            "adaptation_time": 31.082968711853027
+        }
+    },
+    {
+        "timestamp": "2025-01-13T12:40:34.145764",
+        "experiment": "MNIST-100 -> MNIST-100",
+        "metrics": {
+            "accuracy": 0.74,
+            "avg_confidence": 0.657017993927002,
+            "adaptation_time": 0.4482583999633789
+        }
+    },
+    {
+        "timestamp": "2025-01-13T12:41:04.246137",
+        "experiment": "MNIST-1K -> MNIST-1K",
+        "metrics": {
+            "accuracy": 0.926,
+            "avg_confidence": 0.9465179443359375,
+            "adaptation_time": 3.5789363384246826
+        }
+    },
+    {
+        "timestamp": "2025-01-13T12:42:00.452175",
+        "experiment": "MNIST-5K -> MNIST-5K",
+        "metrics": {
+            "accuracy": 0.9702,
+            "avg_confidence": 0.9837828859329224,
+            "adaptation_time": 16.449395895004272
+        }
+    },
+    {
+        "timestamp": "2025-01-13T14:01:39.338781",
+        "experiment": "MNIST Baseline",
+        "metrics": {
+            "accuracy": 0.9901,
+            "avg_confidence": 0.9954625504493714,
+            "adaptation_time": 233.55445003509521
+        }
+    },
+    {
+        "timestamp": "2025-01-13T14:05:48.233479",
+        "experiment": "MNIST Light Gaussian",
+        "metrics": {
+            "accuracy": 0.9897,
+            "avg_confidence": 0.9969243431091308,
+            "adaptation_time": 246.3423411846161
+        }
+    },
+    {
+        "timestamp": "2025-01-13T14:09:56.288381",
+        "experiment": "MNIST Medium Gaussian",
+        "metrics": {
+            "accuracy": 0.985,
+            "avg_confidence": 0.996886470413208,
+            "adaptation_time": 245.36398196220398
+        }
+    },
+    {
+        "timestamp": "2025-01-13T14:14:04.528552",
+        "experiment": "MNIST Heavy Gaussian",
+        "metrics": {
+            "accuracy": 0.9199,
+            "avg_confidence": 0.9912222045898438,
+            "adaptation_time": 245.3400800228119
+        }
+    },
+    {
+        "timestamp": "2025-01-13T14:18:22.973114",
+        "experiment": "MNIST Very Heavy Gaussian",
+        "metrics": {
+            "accuracy": 0.6896,
+            "avg_confidence": 0.9877865955352784,
+            "adaptation_time": 255.73006558418274
+        }
+    },
+    {
+        "timestamp": "2025-01-13T14:29:41.009761",
+        "experiment": "MNIST Median",
+        "metrics": {
+            "accuracy": 0.9525,
+            "avg_confidence": 0.980555662059784,
+            "adaptation_time": 243.74649024009705
+        }
+    },
+    {
+        "timestamp": "2025-01-13T14:34:11.962552",
+        "experiment": "MNIST Box",
+        "metrics": {
+            "accuracy": 0.951,
+            "avg_confidence": 0.9797971584320069,
+            "adaptation_time": 268.2699739933014
+        }
+    },
+    {
+        "timestamp": "2025-01-13T14:38:25.821464",
+        "experiment": "MNIST Motion",
+        "metrics": {
+            "accuracy": 0.9046,
+            "avg_confidence": 0.9556474013328552,
+            "adaptation_time": 251.37429785728455
+        }
+    },
+    {
+        "timestamp": "2025-01-13T14:42:38.712505",
+        "experiment": "MNIST Light Gaussian + Invert",
+        "metrics": {
+            "accuracy": 0.5887,
+            "avg_confidence": 0.893908664894104,
+            "adaptation_time": 250.35534954071045
+        }
+    },
+    {
+        "timestamp": "2025-01-13T14:46:50.099794",
+        "experiment": "MNIST Medium Gaussian + Invert",
+        "metrics": {
+            "accuracy": 0.5579,
+            "avg_confidence": 0.9427210933685303,
+            "adaptation_time": 248.99400401115417
+        }
+    },
+    {
+        "timestamp": "2025-01-13T14:51:02.639901",
+        "experiment": "MNIST Heavy Gaussian + Invert",
+        "metrics": {
+            "accuracy": 0.5871,
+            "avg_confidence": 0.9419234467506409,
+            "adaptation_time": 249.89639258384705
+        }
+    },
+    {
+        "timestamp": "2025-01-13T14:55:20.089209",
+        "experiment": "MNIST Median + Invert",
+        "metrics": {
+            "accuracy": 0.2748,
+            "avg_confidence": 0.8191614532470703,
+            "adaptation_time": 254.83852529525757
+        }
+    },
+    {
+        "timestamp": "2025-01-13T14:59:47.739613",
+        "experiment": "MNIST Box + Invert",
+        "metrics": {
+            "accuracy": 0.3256,
+            "avg_confidence": 0.8011320295333862,
+            "adaptation_time": 265.01904010772705
+        }
+    },
+    {
+        "timestamp": "2025-01-13T15:04:21.812855",
+        "experiment": "MNIST Motion + Invert",
+        "metrics": {
+            "accuracy": 0.1791,
+            "avg_confidence": 0.7649467713356018,
+            "adaptation_time": 270.94046092033386
+        }
+    },
+    {
+        "timestamp": "2025-01-13T15:08:51.039104",
+        "experiment": "MNIST Double Gaussian",
+        "metrics": {
+            "accuracy": 0.9878,
+            "avg_confidence": 0.9967014325141906,
+            "adaptation_time": 266.53460240364075
+        }
+    },
+    {
+        "timestamp": "2025-01-13T15:13:34.663330",
+        "experiment": "MNIST Gaussian + Median",
+        "metrics": {
+            "accuracy": 0.4744,
+            "avg_confidence": 0.8326087208747863,
+            "adaptation_time": 280.3686521053314
+        }
+    },
+    {
+        "timestamp": "2025-01-13T15:18:23.920510",
+        "experiment": "MNIST Double Gaussian + Invert",
+        "metrics": {
+            "accuracy": 0.575,
+            "avg_confidence": 0.9383833224296569,
+            "adaptation_time": 286.53573846817017
+        }
+    },
+    {
+        "timestamp": "2025-01-13T15:21:45.145485",
+        "experiment": "MNIST 1K Light Gaussian",
+        "metrics": {
+            "accuracy": 0.934,
+            "avg_confidence": 0.9539672927856445,
+            "adaptation_time": 4.5600786209106445
+        }
+    },
+    {
+        "timestamp": "2025-01-13T15:21:59.187865",
+        "experiment": "MNIST 1K Medium Gaussian",
+        "metrics": {
+            "accuracy": 0.898,
+            "avg_confidence": 0.9467996025085449,
+            "adaptation_time": 4.244528532028198
+        }
+    },
+    {
+        "timestamp": "2025-01-13T15:22:13.862146",
+        "experiment": "MNIST Heavy Gaussian",
+        "metrics": {
+            "accuracy": 0.839,
+            "avg_confidence": 0.9320436325073242,
+            "adaptation_time": 5.066905498504639
+        }
+    },
+    {
+        "timestamp": "2025-01-13T15:22:27.339640",
+        "experiment": "MNIST Very Heavy Gaussian",
+        "metrics": {
+            "accuracy": 0.753,
+            "avg_confidence": 0.9205438652038574,
+            "adaptation_time": 4.067655086517334
+        }
+    },
+    {
+        "timestamp": "2025-01-13T15:22:41.448664",
+        "experiment": "MNIST 1K Light Gaussian + Invert",
+        "metrics": {
+            "accuracy": 0.024,
+            "avg_confidence": 0.6776556396484374,
+            "adaptation_time": 4.758739233016968
+        }
+    },
+    {
+        "timestamp": "2025-01-13T15:22:55.500910",
+        "experiment": "MNIST 1K Medium Gaussian + Invert",
+        "metrics": {
+            "accuracy": 0.006,
+            "avg_confidence": 0.6885075035095215,
+            "adaptation_time": 4.667991638183594
+        }
+    },
+    {
+        "timestamp": "2025-01-13T15:23:09.344824",
+        "experiment": "MNIST 1K Heavy Gaussian + Invert",
+        "metrics": {
+            "accuracy": 0.01,
+            "avg_confidence": 0.7149330635070801,
+            "adaptation_time": 4.647239446640015
+        }
+    },
+    {
+        "timestamp": "2025-01-13T15:23:22.846524",
+        "experiment": "MNIST 1K Double Gaussian",
+        "metrics": {
+            "accuracy": 0.919,
+            "avg_confidence": 0.9535664901733398,
+            "adaptation_time": 4.299757957458496
+        }
+    },
+    {
+        "timestamp": "2025-01-13T15:23:36.836268",
+        "experiment": "MNIST 1K Double Gaussian + Invert",
+        "metrics": {
+            "accuracy": 0.02,
+            "avg_confidence": 0.6733319072723388,
+            "adaptation_time": 4.616039276123047
+        }
+    },
+    {
+        "timestamp": "2025-01-13T15:27:31.548076",
+        "experiment": "MNIST 1K Baseline",
+        "metrics": {
+            "accuracy": 0.926,
+            "avg_confidence": 0.9465179443359375,
+            "adaptation_time": 3.8963470458984375
+        }
+    },
+    {
+        "timestamp": "2025-01-13T15:27:45.789824",
+        "experiment": "MNIST 1K Median",
+        "metrics": {
+            "accuracy": 0.523,
+            "avg_confidence": 0.8347275772094727,
+            "adaptation_time": 4.306427717208862
+        }
+    },
+    {
+        "timestamp": "2025-01-13T15:27:59.949906",
+        "experiment": "MNIST 1K Box",
+        "metrics": {
+            "accuracy": 0.437,
+            "avg_confidence": 0.8508118629455567,
+            "adaptation_time": 4.3583598136901855
+        }
+    },
+    {
+        "timestamp": "2025-01-13T15:28:15.220284",
+        "experiment": "MNIST 1K Motion",
+        "metrics": {
+            "accuracy": 0.449,
+            "avg_confidence": 0.863161937713623,
+            "adaptation_time": 4.629491806030273
+        }
+    },
+    {
+        "timestamp": "2025-01-13T15:28:30.198315",
+        "experiment": "MNIST 1K Median + Invert",
+        "metrics": {
+            "accuracy": 0.1,
+            "avg_confidence": 0.5110048484802246,
+            "adaptation_time": 4.440129995346069
+        }
+    },
+    {
+        "timestamp": "2025-01-13T15:28:44.931679",
+        "experiment": "MNIST 1K Box + Invert",
+        "metrics": {
+            "accuracy": 0.116,
+            "avg_confidence": 0.27213802909851076,
+            "adaptation_time": 4.54964017868042
+        }
+    },
+    {
+        "timestamp": "2025-01-13T15:29:00.428043",
+        "experiment": "MNIST 1K Motion + Invert",
+        "metrics": {
+            "accuracy": 0.081,
+            "avg_confidence": 0.42418700218200683,
+            "adaptation_time": 5.416198968887329
+        }
+    },
+    {
+        "timestamp": "2025-01-13T15:29:20.092996",
+        "experiment": "MNIST 1K Gaussian + Median",
+        "metrics": {
+            "accuracy": 0.176,
+            "avg_confidence": 0.9302086410522461,
+            "adaptation_time": 6.1745569705963135
+        }
+    }
+]

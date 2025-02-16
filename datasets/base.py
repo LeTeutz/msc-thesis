@@ -29,7 +29,9 @@ class BaseDataset(Dataset):
         """Save samples as a grid of images without requiring display"""
         os.makedirs('experiment_samples', exist_ok=True)
         
-        # Create a 2x5 subplot
+        clean_name = experiment_name.replace(" -> ", "_to_")
+        clean_name = "".join(c for c in clean_name if c.isalnum() or c in (' ', '_', '-'))
+        
         fig, axes = plt.subplots(2, 5, figsize=(15, 6))
         axes_flat = axes.flatten()
         
@@ -47,6 +49,6 @@ class BaseDataset(Dataset):
         
         plt.suptitle(experiment_name, y=1.02, fontsize=12)
         plt.tight_layout()
-        output_path = os.path.join('experiment_samples', f'{experiment_name}.png')
+        output_path = os.path.join('experiment_samples', f'{clean_name}.png')
         fig.savefig(output_path, dpi=100, bbox_inches='tight')
         plt.close(fig)

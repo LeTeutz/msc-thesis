@@ -2,7 +2,8 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 import torch.nn.functional as F
-from typing import Tuple
+from typing import Optional, Tuple
+from adaptation.registry import ADAPTATION_REGISTRY
 
 class SimpleCNN(nn.Module):
     def __init__(self, num_classes: int):
@@ -30,7 +31,8 @@ class SimpleCNN(nn.Module):
 DATASET_NUM_CLASSES = {
     'mnist': 10,
     'fashion_mnist': 10,
-    'emnist': 47  
+    'emnist': 47 ,
+    'mnist_100': 10
 }
 
 def train_model(model: nn.Module, 
@@ -54,29 +56,54 @@ def train_model(model: nn.Module,
             optimizer.step()
         print(f"Epoch {epoch + 1}/{epochs}, Loss: {total_loss / len(train_loader)}")
 
-def test_model(model: nn.Module, 
+
+def test_model(model: nn.Module,
                test_loader: torch.utils.data.DataLoader,
-               device: torch.device) -> Tuple[float, float]:
+               device: torch.device,
+               adaptation_method: Optional[str] = None) -> Tuple[float, float]:
+    print(f"\nDEBUG: test_model parameters:")
+    print(f"adaptation_method: {adaptation_method} (type: {type(adaptation_method)})")
+    print(f"Available adapters: {list(ADAPTATION_REGISTRY.keys())}")
+    
     model.eval()
     correct = 0
     total = 0
     confidence_sum = 0.0
     
+    adapter = None
+    if adaptation_method is not None:
+        print(f"DEBUG: Creating adapter for method: {adaptation_method}")
+        adapter_cls = ADAPTATION_REGISTRY[adaptation_method]
+        print(f"DEBUG: Using adapter class: {adapter_cls.__name__}")
+
+        if adaptation_method == 't3a':
+            num_classes = model.fc_layers[-1].out_features  
+            adapter = adapter_cls(model, device, num_classes=num_classes)
+        else:
+            adapter = adapter_cls(model, device)
+    else:
+        print("DEBUG: No adaptation method specified")
+
     with torch.no_grad():
         for inputs, targets in test_loader:
             inputs, targets = inputs.to(device), targets.to(device)
-            outputs = model(inputs)
-            probabilities = F.softmax(outputs, dim=1)
             
+            if adapter is not None:
+                with torch.enable_grad(): 
+                    outputs = adapter.adapt_and_predict(inputs)
+            else:
+                outputs = model(inputs)
+            
+            probabilities = F.softmax(outputs, dim=1)
             pred_prob, predicted = torch.max(probabilities, 1)
             correct += (predicted == targets).sum().item()
             confidence_sum += pred_prob.sum().item()
             total += targets.size(0)
-    
+
     accuracy = correct / total
     avg_confidence = confidence_sum / total
-    
+
     print(f"Test Accuracy: {accuracy*100:.2f}%")
     print(f"Average Confidence: {avg_confidence:.4f}")
-    
+
     return accuracy, avg_confidence
